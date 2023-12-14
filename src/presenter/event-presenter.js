@@ -1,8 +1,8 @@
 import EditView from '../view/edit-view.js';
 import PointView from '../view/point-view.js';
 import FormView from '../view/form-view.js';
-import EventListView from "../view/event-list-view.js";
-import {render} from "../render";
+import EventListView from '../view/event-list-view.js';
+import {render} from '../render';
 export default class EventPresenter {
   eventListComponent = new EventListView();
 
